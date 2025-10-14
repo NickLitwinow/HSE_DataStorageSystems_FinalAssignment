@@ -10,24 +10,24 @@
 
 ```
 HSE_DataStorageSystems_FinalAssignment/
-├── sql/                        # SQL скрипты
-│   ├── 00_schemas.sql         # Создание схем
-│   ├── 01_stage.sql          # Стейджинг таблица
-│   ├── 10_hubs.sql           # Хабы и их сателлиты
-│   ├── 20_links.sql          # Линки и их сателлиты
-│   ├── 40_constraints.sql    # Ограничения и индексы
-│   ├── 50_etl.sql           # ETL процесс
-│   └── 60_verify.sql        # Проверка и аналитика
-├── etl/                       # Python ETL утилиты
+├── sql/ # SQL скрипты
+│   ├── 00_schemas.sql # Создание схем
+│   ├── 01_stage.sql # Стейджинг таблица
+│   ├── 10_hubs.sql # Хабы и их сателлиты
+│   ├── 20_links.sql # Линки и их сателлиты
+│   ├── 40_constraints.sql # Ограничения и индексы
+│   ├── 50_etl.sql # ETL процесс
+│   └── 60_verify.sql # Проверка и аналитика
+├── etl/ # Python ETL утилиты
 │   ├── __init__.py
-│   ├── db.py                 # Подключение к Greenplum
-│   ├── stage_load.py        # Загрузка в stage
-│   ├── run_sql.py          # Запуск SQL файлов
-│   ├── run_all.py          # Полный ETL процесс
-│   └── verify.py           # Проверка результатов
-├── SampleSuperstore.csv      # Исходный датасет
-├── pyproject.toml           # Конфигурация проекта
-└── requirements.txt         # Python зависимости
+│   ├── db.py# Подключение к Greenplum
+│   ├── stage_load.py # Загрузка в stage
+│   ├── run_sql.py # Запуск SQL файлов
+│   ├── run_all.py # Полный ETL процесс
+│   └── verify.py # Проверка результатов
+├── SampleSuperstore.csv # Исходный датасет
+├── pyproject.toml # Конфигурация проекта
+└── requirements.txt # Python зависимости
 ```
 
 ---
@@ -36,7 +36,7 @@ HSE_DataStorageSystems_FinalAssignment/
 
 ### Обзор архитектуры
 
-
+<img width="1207" height="820" alt="Screenshot 2025-10-14 at 21 30 08" src="https://github.com/user-attachments/assets/5df25be0-0c5b-4902-b15b-bacd0232cb5c" />
 
 ### Исходные данные
 
@@ -121,10 +121,10 @@ HSE_DataStorageSystems_FinalAssignment/
 
 ## Результаты загрузки
 
-
+<img width="1512" height="982" alt="Screenshot 2025-10-14 at 21 22 38" src="https://github.com/user-attachments/assets/e21585df-160b-4714-bc26-e57436506cea" />
 
 ---
 
 ## Пример аналитики: Продажи по регионам и категориям (ТОП-5)
 
-
+<img width="1512" height="982" alt="Screenshot 2025-10-14 at 21 22 53" src="https://github.com/user-attachments/assets/21bce3ab-b930-4699-94ab-897cd09148f0" />

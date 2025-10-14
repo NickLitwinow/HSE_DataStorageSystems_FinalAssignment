@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hse-dv-etl"
+version = "1.0.0"
+authors = [
+    { name="litwein" },
+]
+description = "HSE Data Storage Systems Final Assignment"
+requires-python = ">=3.8"
+dependencies = [
+    "psycopg[binary]>=3.2.3",
+]
